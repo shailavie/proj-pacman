@@ -1,0 +1,74 @@
+body {
+  background-color: black;
+  color:white;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+
+.formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+}
+
+.board-container {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+table {
+  border: 5px dotted blue;
+}
+
+td {
+  width: 70px;
+  height: 70px;
+}
+.end-modal-container {
+  text-align: center;
+  position: absolute;
+  width: 600px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  vertical-align: middle;
+  text-align: center;
+  display: block;
+  z-index: 1;
+  /*
+  overflow: hidden;
+  */
+}
+
+
+.blur {
+  filter: blur(8px);
+}
+
+.end-modal {
+  position: absolute;
+  
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  vertical-align: middle;
+  text-align: center;
+  /*
+  visibility: "hidden";
+  overflow: hidden;
+  z-index: 1;
+  */
+}
+
+.hide {
+  display: none;
+}
